@@ -6,4 +6,46 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 6rem;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+header nav .nav-right-section {
+  width: 25rem;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+header nav .nav-right-section a {
+  margin-right: 1rem;
+  color: #000000;
+}
+header nav .nav-right-section .menu-icon {
+  background-image: url(https://static.thenounproject.com/png/756729-200.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+header nav .nav-right-section img {
+  border-radius: 5rem;
+  margin-left: 1rem;
 }/*# sourceMappingURL=main.css.map */
