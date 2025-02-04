@@ -34,7 +34,7 @@ header nav .nav-right-section {
   align-items: center;
 }
 header nav .nav-right-section a {
-  margin-right: 1rem;
+  margin-right: 2rem;
   color: #000000;
 }
 header nav .nav-right-section .menu-icon {
@@ -47,5 +47,34 @@ header nav .nav-right-section .menu-icon {
 }
 header nav .nav-right-section img {
   border-radius: 5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
+}
+
+main {
+  margin-top: 15rem;
+  text-align: center;
+}
+main .main-logo {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+main .main-input {
+  width: 53rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+main .main-input-container {
+  width: 52.5rem;
+  border-radius: 10rem;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
