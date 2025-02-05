@@ -64,11 +64,24 @@ main .main-input {
   margin: 0 auto;
   margin-bottom: 3.5rem;
 }
-main .main-input input {
-  width: 450px;
-  height: 40px;
-  border: none;
-  outline: none;
+main .main-input .search-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+  padding-left: 4rem;
+}
+main .main-input .micro-icon {
+  background-image: url("https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  padding-right: 4rem;
 }
 main .main-input-container {
   width: 52.5rem;
@@ -77,4 +90,37 @@ main .main-input-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+main .main-input-container input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10rem;
+}
+main .main-input-container :hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.2784313725);
+  border-color: rgba(223, 225, 229, 0);
+}
+main .main-buttons {
+  width: 53rem;
+  margin: 0 auto;
+}
+main .main-buttons div {
+  display: inline-block;
+}
+main .main-buttons button {
+  height: 3.6rem;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 1.4rem;
+  color: #5f6368;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  margin-right: 1.5rem;
+}
+main .main-buttons button:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 1px 1px #000001;
+  color: #222;
 }/*# sourceMappingURL=main.css.map */
